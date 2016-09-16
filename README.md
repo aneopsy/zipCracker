@@ -45,7 +45,7 @@ Took 0.562439 seconds to crack the password. That is, 5325 attempts per second.
 
 ## Deployment
 
-Crysher est compatible sur:
+ZipCracker est compatible sur:
 
 - Linux
 
