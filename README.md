@@ -55,5 +55,4 @@ ZipCracker est compatible sur:
 
 ## Acknowledgments
 
-* Cryptographie
 * Python
