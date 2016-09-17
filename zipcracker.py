@@ -72,13 +72,12 @@ def main(args):
                 sys.exit(1)
             except Exception:
                 pass
-            output = "%*d / %d | %6.2f%% key -> %s" % (len(str(max_lines)),
-                                                       i,
-                                                       max_lines,
-                                                       100 * (i + 1) / max_lines,
-                                                       password
-                                                       )
-            sys.stdout.write('\b' * 80)
+            output = "%*d / %d | %6.2f%% -> %s\r" % (len(str(max_lines)),
+                                                     i,
+                                                     max_lines,
+                                                     100 * i / max_lines,
+                                                     password
+                                                     )
             sys.stdout.write(output)
             sys.stdout.flush()
 
